@@ -47,5 +47,7 @@ int main() {
 	// Cleanup the memory in the heap
 	delete triangle;
 
+	Polygon* triangle1 = new Triangle(8,9);
+
 	return 0;
 }
